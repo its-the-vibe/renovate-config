@@ -16,5 +16,6 @@
       "groupName": "golang-version-updates"
     }
   ],
-  "prConcurrentLimit": 5
+  "prConcurrentLimit": 5,
+  "dependencyDashboard": false
 }
