@@ -14,6 +14,11 @@
       "matchManagers": ["dockerfile"],
       "matchPackageNames": ["golang", "go"],
       "groupName": "golang-version-updates"
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchUpdateTypes": ["patch"],
+      "enabled": false
     }
   ],
   "prConcurrentLimit": 5,
